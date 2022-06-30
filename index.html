@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script>
+		$(function() {
+			$("#menukey").on("click", function() {
+				$("#menu").toggle("slow");
+			});
+		});
+	</script>
+</head>
+<body>
+<button id="menukey"><img src="img/menu-burger.png" width="25px" height="20px" alt="버튼이미지"></button>
+<nav id="menu">
+    <div class="menu-key">
+        <h2>menu</h2>
+        <br>
+        <ul>
+            <li id="key">
+                <a href="index.html">
+                    home
+                    <img src="img/home.png" width="10px" height="10px">
+                </a>
+            </li>
+            <li id="key">
+                <a href="#">
+                    sign up
+                    <img src="img/user.png" width="10px" height="10px">
+                </a>
+            </li>
+            <li id="key">
+                <a href="#">
+                    login
+                    <img src="img/lock.png" width="10px" height="10px">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section id="main">
+    <div id="galleryZone">
+
+        <p>
+            <button onclick="gallery(0);"><img src="img/angle-left.png" width="50px" height="100px"></button>
+            <img src="img/도시1.jpg" id="photo" width="1000px" height="400px" alt="asdf">
+            <button onclick="gallery(1);"><img src="img/angle-right.png" width="50px" height="100px"></button>
+        </p>
+    </div>
+</section>
+
+    <div class="notice">
+        <table class="table">
+            <caption>공지사항</caption>
+            <tr>
+                <th>내용</th>
+                <th>날짜</th>
+            </tr>
+            <tr>
+                <td><a href="#">장마철로 인해 지연됩니다.</a></td>
+                <td>2022-06-30</td>
+            </tr>
+            <tr>
+                <td><a href="#"></a></td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td><a href="#"></a></td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td><a href="#"></a></td>
+                <td>?</td>
+            </tr>
+            <tr>
+                <td><a href="#"></a></td>
+                <td>?</td>
+            </tr>
+        </table>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>
