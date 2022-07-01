@@ -8,9 +8,8 @@
 #메뉴 바
 
 <img src="https://user-images.githubusercontent.com/96267331/176813742-3edb9516-eb3f-4f9d-aeb4-0d4269aceb58.PNG"><br>
-메뉴바
 <img src="https://user-images.githubusercontent.com/96267331/176813740-8a0b689e-7036-4ce5-b3b5-4db72223ec5e.PNG"><br>
-메뉴 아이콘 클릭시 사라지고 또 한번 클릭시 다시 생격난다
+메뉴 아이콘 클릭시 사라지고 또 한번 클릭시 다시 생겨난다
 
 # 밑 사진
 
