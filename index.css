@@ -1,4 +1,9 @@
 * { margin:0; padding: 0; }
+
+body{
+    background-color: azure;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -6,6 +11,10 @@ a {
 li{
     list-style-type: none;
 }
+
+.clear {
+    clear: both;
+    }
 
 #menu{
     background-color: aquamarine;
@@ -33,12 +42,13 @@ a:hover{
     color: darkorange;
 }
 #main{
-    margin-top: 120px;
-    margin-left: 100px;
+    margin-top: 60px;
+    margin-left: 29.3%;
 }
 
 
 .table{
+    margin-left: 23.3%;
     width: 995px;
     border-collapse: collapse;
     font-size: 1rem;
@@ -66,3 +76,50 @@ a:hover{
 caption{
     font-size: 30px;
 }
+
+.ci{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    background-color: papayawhip ;
+    height: 500px;
+    
+}
+.img .qwer{
+    height: 400px;
+    width: 500px;
+    overflow: hidden;
+}
+
+.img img:hover{
+    animation: gg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+@keyframes gg {
+    50%{transform: scale(1.5);}
+}
+
+.mySlides {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
